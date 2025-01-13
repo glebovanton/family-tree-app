@@ -1,0 +1,22 @@
+family-tree-app/
+├── public/                 # Статические файлы, доступные напрямую
+│   ├── images/             # Изображения
+│   │   ├── ivan.jpg
+│   │   ├── maria.jpg
+│   │   ├── alexey.jpg
+├── src/                    # Исходный код приложения
+│   ├── pages/              # Next.js страницы
+│   │   ├── index.tsx       # Главная страница
+│   │   ├── [personId].tsx  # Страница родственника
+│   ├── components/         # Компоненты
+│   │   ├── FamilyTree.tsx  # Компонент семейного дерева
+│   │   ├── PersonCard.tsx  # Карточка родственника
+│   ├── data/               # Данные приложения
+│   │   ├── familyData.ts   # JSON-данные с родственниками
+│   ├── styles/             # Стили приложения
+│   │   ├── globals.css     # Tailwind стили
+│   │   ├── tree.scss       # Дополнительные SCSS-стили для дерева
+├── .gitignore              # Игнорируемые файлы
+├── package.json            # Зависимости и скрипты
+├── tailwind.config.js      # Конфигурация Tailwind
+├── tsconfig.json           # Конфигурация TypeScript
